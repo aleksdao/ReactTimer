@@ -5,10 +5,9 @@ var Main = React.createClass({
   render: function () {
     return (
       <div>
-        <div>
-          <div>
-            <Nav></Nav>
-            <p>Main.jsx Rendered</p>
+        <Nav></Nav>
+        <div className="row">
+          <div className="column small-centered medium-6 large-4">
             {this.props.children}
           </div>
         </div>
